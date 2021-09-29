@@ -271,7 +271,7 @@ export class Map {
       3,
       AudioLoader.load("/sounds/music/overworld.mp3", true),
       this.Game.BrickCollection.get("default"),
-      "#ffd4aa"
+      "#202020"
     );
 
     this.worlds[0].scenes[0][0].loadBricks([
