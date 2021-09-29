@@ -20,9 +20,9 @@ export class WinScreen extends AbstractScreen {
     super(
       game,
       new StateObserver(WinScreenState.PlayerAnimation),
-      "#000",
-      "YOU WON",
-      "press enter to play again",
+      "#202020",
+      "YOU ARE NOT A ROBOT 🤖",
+      "",
       150
     );
 
