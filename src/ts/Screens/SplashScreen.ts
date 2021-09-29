@@ -16,9 +16,9 @@ export class SplashScreen extends AbstractScreen {
     super(
       game,
       new StateObserver(SplashScreenState.BlackScreen),
-      "#000",
-      "TLOZ-JS GAME",
-      "press enter to start",
+      "#202020",
+      "SUPRALINK",
+      "ENTER to start",
       150
     );
 
