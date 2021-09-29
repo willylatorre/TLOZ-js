@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TLOZ-JS Game</title>
+    
+    <style>
+      @font-face {
+        font-family: "NES-font";
+        src: url("./fonts/nintendo-nes-font.ttf") format("truetype");
+      }
+
+      main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: #202020;
+        padding: 100px;
+        margin: 0;
+        height: 100vh;
+      }
+      canvas {
+        background: rgb(19, 17, 17);
+        display: block;
+        border-radius: 15px;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index.713366f3.js"></script>
+    <link rel="stylesheet" href="/assets/index.9230682c.css">
+  </head>
+  <body>
+    <main>
+      <div style="position: absolute;" id="hint">
+        <button type="button" name="button" class="Button" id="startButton">
+          Run game
+        </button>
+        <p style="margin-top: 20px;">
+          Q for attack, I for inventory
+        </p>
+      </div>
+
+      <canvas id="canvas"
+        >Your browser seems to not support Canvas2D api. Please use a modern and
+        up to date one like Firefox.</canvas
+      >
+      
+    </main>
+  </body>
+</html>
