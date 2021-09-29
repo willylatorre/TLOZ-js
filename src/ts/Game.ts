@@ -147,6 +147,7 @@ export class Game {
         this.gameOverLoop();
         break;
       case GameState.Win:
+        document.dispatchEvent(new Event("win"));
         this.winLoop();
         break;
       case GameState.CustomLoop:
@@ -215,8 +216,6 @@ export class Game {
   }
 
   winLoop(): void {
-    console.log("winLoop");
-    document.dispatchEvent(new Event("win"));
     this.WinScreen.draw();
   }
 

@@ -33,8 +33,6 @@ export class EventManager {
       return;
     }
 
-    console.log("Key event", e.key);
-
     switch (e.key) {
       case "ArrowRight":
         this.isRightPressed = keydown;
