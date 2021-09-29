@@ -26,9 +26,9 @@ export class Hud {
 
     this.height = 64;
 
-    this.emptyHeartSprite = SpriteLoader.load("./sprites/png/empty-heart.png");
-    this.halfHeartSprite = SpriteLoader.load("./sprites/png/half-heart.png");
-    this.fullHeartSprite = SpriteLoader.load("./sprites/png/full-heart.png");
+    this.emptyHeartSprite = SpriteLoader.load("/sprites/png/empty-heart.png");
+    this.halfHeartSprite = SpriteLoader.load("/sprites/png/half-heart.png");
+    this.fullHeartSprite = SpriteLoader.load("/sprites/png/full-heart.png");
 
     this.currentSceneAnimation = new AnimationObserver(25, 2);
   }
