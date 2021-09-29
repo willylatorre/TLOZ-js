@@ -147,7 +147,9 @@ export class Game {
         this.gameOverLoop();
         break;
       case GameState.Win:
-        document.dispatchEvent(new Event("win"));
+        window.parent.postMessage({
+          'msg': 'win'
+        }, "*");
         this.winLoop();
         break;
       case GameState.CustomLoop:
